@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simplenotes.debug"
+    android:versionCode="7"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <permission
+        android:name="com.example.simplenotes.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.simplenotes.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.simplenotes.NoteActivity"
+            android:exported="true"
+            android:parentActivityName="com.example.simplenotes.NotesListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.simplenotes.NotesListActivity"
+            android:exported="true"
+            android:label="@string/launcher_title"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.simplenotes.SettingsActivity"
+            android:parentActivityName="com.example.simplenotes.NotesListActivity" />
+        <activity
+            android:name="com.example.simplenotes.TaskerActionGetNoteActivity"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/get_note"
+            android:theme="@style/TaskerInputTheme" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.simplenotes.TaskerActionSetNoteActivity"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/set_note"
+            android:theme="@style/TaskerInputTheme" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.simplenotes.TaskerEventNoteUpdateActivity"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/note_change"
+            android:theme="@style/TaskerInputTheme" >
+            <intent-filter>
+                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.simplenotes.debug.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="com.joaomgcd.taskerpluginlibrary.action.BroadcastReceiverAction"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.joaomgcd.taskerpluginlibrary.action.IntentServiceAction"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.joaomgcd.taskerpluginlibrary.condition.IntentServiceCondition"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.joaomgcd.taskerpluginlibrary.condition.BroadcastReceiverCondition"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

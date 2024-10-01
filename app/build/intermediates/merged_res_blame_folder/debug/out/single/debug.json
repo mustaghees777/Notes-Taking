@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_splash.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_splash.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_delete_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_delete_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_alphabetical_to_numerical.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/alphabetical_to_numerical.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_share_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_share_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_divider_settings.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/divider_settings.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_settings_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_settings_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/layout_activity_tasker_input.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/layout/activity_tasker_input.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_divider.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/divider.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_ic_sort_alphabetical.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/ic_sort_alphabetical.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_square.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/square.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/menu_menu_note.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/menu/menu_note.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_note.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_note.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/layout_list_item.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/anim_layout_animation_fall_down.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/anim/layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_splash_screen.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/splash_screen.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/layout_activity_note.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/layout/activity_note.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/menu_menu_notes_list.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/menu/menu_notes_list.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_circle.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/layout_activity_notes_list.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/layout/activity_notes_list.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_add_circle_outline_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_add_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_bg.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_bg.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_undo_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_undo_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable_numeric_to_alphabetical.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable/numeric_to_alphabetical.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-xxxhdpi_ic_sort_numeric_white_24dp.png.flat",
+        "source": "com.example.simplenotes.app-main-33:/drawable-xxxhdpi/ic_sort_numeric_white_24dp.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/layout_activity_settings.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.simplenotes.app-pngs-26:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/anim_item_animation_fall_down.xml.flat",
+        "source": "com.example.simplenotes.app-main-33:/anim/item_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.example.simplenotes.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.simplenotes.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]

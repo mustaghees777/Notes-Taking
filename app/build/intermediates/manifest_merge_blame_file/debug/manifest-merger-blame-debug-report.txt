@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.simplenotes.debug"
+4    android:versionCode="7"
+5    android:versionName="2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:5:22-74
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.simplenotes.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.simplenotes.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:7:5-72:19
+20        android:allowBackup="true"
+20-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\63cc23c7f76a96e9e90dd731baa10e35\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:10:9-41
+25        android:supportsRtl="true"
+25-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:11:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:12:9-40
+28        <activity
+28-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:14:9-23:20
+29            android:name="com.example.simplenotes.NoteActivity"
+29-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:15:13-64
+30            android:exported="true"
+30-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:16:13-36
+31            android:parentActivityName="com.example.simplenotes.NotesListActivity" >
+31-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:17:13-83
+32            <intent-filter>
+32-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.SEND" />
+33-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:19:17-69
+33-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.DEFAULT" />
+35-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:20:17-76
+35-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:20:27-73
+36
+37                <data android:mimeType="text/plain" />
+37-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:21:17-55
+37-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:21:23-52
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:25:9-34:20
+41            android:name="com.example.simplenotes.NotesListActivity"
+41-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:26:13-69
+42            android:exported="true"
+42-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:28:13-36
+43            android:label="@string/launcher_title"
+43-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:27:13-51
+44            android:theme="@style/SplashTheme" >
+44-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:29:13-47
+45            <intent-filter>
+45-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:30:13-33:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:31:17-69
+46-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:32:17-77
+48-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:32:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:36:9-38:86
+52            android:name="com.example.simplenotes.SettingsActivity"
+52-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:37:13-68
+53            android:parentActivityName="com.example.simplenotes.NotesListActivity" />
+53-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:38:13-83
+54        <activity
+54-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:40:9-49:20
+55            android:name="com.example.simplenotes.TaskerActionGetNoteActivity"
+55-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:41:13-79
+56            android:exported="true"
+56-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:42:13-36
+57            android:icon="@mipmap/ic_launcher"
+57-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:43:13-47
+58            android:label="@string/get_note"
+58-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:44:13-45
+59            android:theme="@style/TaskerInputTheme" >
+59-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:45:13-52
+60            <intent-filter>
+60-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:46:13-48:29
+61                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+61-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:47:17-95
+61-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:47:25-92
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:51:9-60:20
+65            android:name="com.example.simplenotes.TaskerActionSetNoteActivity"
+65-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:52:13-79
+66            android:exported="true"
+66-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:53:13-36
+67            android:icon="@mipmap/ic_launcher"
+67-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:54:13-47
+68            android:label="@string/set_note"
+68-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:55:13-45
+69            android:theme="@style/TaskerInputTheme" >
+69-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:56:13-52
+70            <intent-filter>
+70-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:46:13-48:29
+71                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+71-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:47:17-95
+71-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:47:25-92
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:62:9-71:20
+75            android:name="com.example.simplenotes.TaskerEventNoteUpdateActivity"
+75-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:63:13-81
+76            android:exported="true"
+76-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:64:13-36
+77            android:icon="@mipmap/ic_launcher"
+77-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:65:13-47
+78            android:label="@string/note_change"
+78-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:66:13-48
+79            android:theme="@style/TaskerInputTheme" >
+79-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:67:13-52
+80            <intent-filter>
+80-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:68:13-70:29
+81                <action android:name="net.dinglisch.android.tasker.ACTION_EDIT_EVENT" />
+81-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:69:17-89
+81-->C:\Users\Mustaghees Abbasi\OneDrive\Desktop\CodexCue Solutions\Simple-Notes-master\app\src\main\AndroidManifest.xml:69:25-86
+82            </intent-filter>
+83        </activity>
+84
+85        <provider
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+87            android:authorities="com.example.simplenotes.debug.androidx-startup"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+88            android:exported="false" >
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\9eaa5499e5917bf161e9e1c1138b7d31\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\afbe6f79812804f6bb7e1730342d066f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\afbe6f79812804f6bb7e1730342d066f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\afbe6f79812804f6bb7e1730342d066f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+95        </provider>
+96
+97        <receiver
+97-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:13:9-20:20
+98            android:name="com.joaomgcd.taskerpluginlibrary.action.BroadcastReceiverAction"
+98-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:14:13-91
+99            android:exported="true" >
+99-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:15:13-36
+100            <intent-filter>
+100-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:17:13-19:29
+101                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+101-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:18:17-95
+101-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:18:25-92
+102            </intent-filter>
+103        </receiver>
+104
+105        <service
+105-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:22:9-29:19
+106            android:name="com.joaomgcd.taskerpluginlibrary.action.IntentServiceAction"
+106-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:23:13-87
+107            android:exported="true" >
+107-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:24:13-36
+108            <intent-filter>
+108-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:17:13-19:29
+109                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+109-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:18:17-95
+109-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:18:25-92
+110            </intent-filter>
+111        </service>
+112        <service
+112-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:30:9-37:19
+113            android:name="com.joaomgcd.taskerpluginlibrary.condition.IntentServiceCondition"
+113-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:31:13-93
+114            android:exported="true" >
+114-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:32:13-36
+115            <intent-filter>
+115-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:34:13-36:29
+116                <action android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+116-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:35:17-98
+116-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:35:25-95
+117            </intent-filter>
+118        </service>
+119
+120        <receiver
+120-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:39:9-46:20
+121            android:name="com.joaomgcd.taskerpluginlibrary.condition.BroadcastReceiverCondition"
+121-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:40:13-97
+122            android:exported="true" >
+122-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:41:13-36
+123            <intent-filter>
+123-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:34:13-36:29
+124                <action android:name="com.twofortyfouram.locale.intent.action.QUERY_CONDITION" />
+124-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:35:17-98
+124-->[com.joaomgcd:taskerpluginlibrary:0.4.4] C:\Users\Mustaghees Abbasi\.gradle\caches\transforms-3\ceea6ca719f9ef445d9521f7f17a176e\transformed\jetified-taskerpluginlibrary-0.4.4\AndroidManifest.xml:35:25-95
+125            </intent-filter>
+126        </receiver>
+127    </application>
+128
+129</manifest>
